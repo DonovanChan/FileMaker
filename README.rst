@@ -20,13 +20,13 @@ Installing Via Package Control
 ------------------------------
 
 
-Support for 'Package Control'_ coming soon!
+Support for `Package Control`_ coming soon!
 
 .. _Package Control: https://sublime.wbond.net/installation
 
 
 Installing From Source
--------------------
+----------------------
 
 - Quit Sublime Text
 - If you have a previous installation of Packages/FileMaker installed, delete it
@@ -40,4 +40,5 @@ Contact
 ==========
 
 Donovan Chandler
-donovan_c at beezwax.net
+
+donovan_c@beezwax.net
