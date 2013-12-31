@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[KanjiNumeral ( ${1:text} )$0]]></content>
+  <description>KanjiNumeral</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>kanjinum</tabTrigger>
+</snippet>

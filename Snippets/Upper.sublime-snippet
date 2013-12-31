@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Upper ( ${1:text} )$0]]></content>
+  <description>Upper</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>upper</tabTrigger>
+</snippet>

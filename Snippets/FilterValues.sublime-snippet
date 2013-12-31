@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FilterValues ( ${1:textToFilter} ; ${2:filterValues} )$0]]></content>
+  <description>FilterValues</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>filterval</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[WordCount ( ${1:text} )$0]]></content>
+  <description>WordCount</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>wordcount</tabTrigger>
+</snippet>

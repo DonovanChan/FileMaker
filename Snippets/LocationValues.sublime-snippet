@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[LocationValues ( ${1:accuracy}${2: ; timeout} )$0]]></content>
+  <description>LocationValues</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>loca</tabTrigger>
+</snippet>

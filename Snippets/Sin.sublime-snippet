@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Sin ( ${1:angleInRadians} )$0]]></content>
+  <description>Sin</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>sin</tabTrigger>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( WindowOrientation )]]></content>
+    <tabTrigger>getwin</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

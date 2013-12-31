@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Extend ( ${1:non-repeatingField} )$0]]></content>
+  <description>Extend</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>extend</tabTrigger>
+</snippet>

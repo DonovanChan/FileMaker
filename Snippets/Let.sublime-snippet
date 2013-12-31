@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[Let ( [
+	${1:varName} = ${2:expression} ;
+	] ;
+	${3:calculation}
+)$0]]></content>
+  <description>Let</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>let</tabTrigger>
+</snippet>

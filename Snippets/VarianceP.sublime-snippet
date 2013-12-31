@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[VarianceP ( ${1:field1}${2: ; field2...} )$0]]></content>
+  <description>VarianceP</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>variancep</tabTrigger>
+</snippet>

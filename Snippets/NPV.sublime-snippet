@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[NPV ( ${1:payment} ; ${2:interestRate} )$0]]></content>
+  <description>NPV</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>npv</tabTrigger>
+</snippet>

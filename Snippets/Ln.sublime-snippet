@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Ln ( ${1:number} )$0]]></content>
+  <description>Ln</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>ln</tabTrigger>
+</snippet>

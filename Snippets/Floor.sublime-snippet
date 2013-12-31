@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Floor ( ${1:number} )$0]]></content>
+  <description>Floor</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>floor</tabTrigger>
+</snippet>

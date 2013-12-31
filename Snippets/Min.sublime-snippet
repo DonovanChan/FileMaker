@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Min ( ${1:field1}${2: ; field2...} )$0]]></content>
+  <description>Min</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>min</tabTrigger>
+</snippet>

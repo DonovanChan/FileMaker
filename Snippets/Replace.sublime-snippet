@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Replace ( ${1:text} ; ${2:start} ; ${3:numberOfCharacters} ; ${4:replacementText} )$0]]></content>
+  <description>Replace</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>replace</tabTrigger>
+</snippet>

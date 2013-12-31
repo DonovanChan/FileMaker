@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[RightValues ( ${1:text} ; ${2:numberofvalues} )$0]]></content>
+  <description>RightValues</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>rightval</tabTrigger>
+</snippet>

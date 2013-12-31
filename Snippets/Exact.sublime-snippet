@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Exact ( ${1:originalText} ; ${2:comparisonText} )$0]]></content>
+  <description>Exact</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>exact</tabTrigger>
+</snippet>

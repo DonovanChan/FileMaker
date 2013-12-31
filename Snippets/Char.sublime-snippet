@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Char ( ${1:number} )$0]]></content>
+  <description>Char</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>char</tabTrigger>
+</snippet>

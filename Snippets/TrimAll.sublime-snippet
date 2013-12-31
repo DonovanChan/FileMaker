@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Trim ( ${1:text} ; ${2:trimSpaces = true | false} ; ${3:trimType = 0 | 1 | 2 | 3} )$0]]></content>
+  <description>TrimAll</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>trimall</tabTrigger>
+</snippet>

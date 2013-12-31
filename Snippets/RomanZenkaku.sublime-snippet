@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[RomanZenkaku ( ${1:text} )$0]]></content>
+  <description>RomanZenkaku</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>romanzenkaku</tabTrigger>
+</snippet>

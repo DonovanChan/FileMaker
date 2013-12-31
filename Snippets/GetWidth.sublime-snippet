@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetWidth ( ${1:field} )$0]]></content>
+  <description>GetWidth</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getwidth</tabTrigger>
+</snippet>

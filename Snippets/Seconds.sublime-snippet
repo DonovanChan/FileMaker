@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Seconds ( ${1:time} )$0]]></content>
+  <description>Seconds</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>seconds</tabTrigger>
+</snippet>

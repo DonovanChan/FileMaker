@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetLayoutObjectAttribute ( ${1:"${2:objectName}"} ; "${3:objectType | hasFocus | containsFocus | isFrontTabPanel | bounds | left | right | top | bottom | width | height | rotation | startPoint,endPoint | source | content | enclosingObject | containedObjects}"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0]]></content>
+  <description>GetLayoutObjectAttribute</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getattr</tabTrigger>
+</snippet>

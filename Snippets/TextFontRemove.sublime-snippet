@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextFontRemove ( ${1:text}${2: ; "${3:fontName}" ; ${4:Roman | Greek | Cryllic | CentralEurope | ShiftJIS | TraditionalChinese | SimplifiedChinese | OEM | Symbol | Other}} )$0]]></content>
+  <description>TextFontRemove</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textfontrm</tabTrigger>
+</snippet>

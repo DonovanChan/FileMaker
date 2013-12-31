@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Evaluate ( ${1:expression}${2: ; ${3:field1} ; ${4:field2} ;} )$0]]></content>
+  <description>Evaluate</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>eval</tabTrigger>
+</snippet>

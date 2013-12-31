@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Base64Encode ( ${1:sourceField} )]]></content>
+    <tabTrigger>base64e</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

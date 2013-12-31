@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[StDev ( ${1:field1}${2: ; field2...} )$0]]></content>
+  <description>StDev</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>stdev</tabTrigger>
+</snippet>

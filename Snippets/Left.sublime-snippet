@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Left ( ${1:text} ; ${2:numberOfCharacters} )$0]]></content>
+  <description>Left</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>left</tabTrigger>
+</snippet>

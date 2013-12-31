@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FV ( ${1:payment} ; ${2:interestRate} ; ${3:periods} )$0]]></content>
+  <description>FV</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fv</tabTrigger>
+</snippet>

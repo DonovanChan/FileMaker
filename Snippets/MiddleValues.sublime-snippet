@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[MiddleValues ( ${1:text} ; ${2:startingValue} ; ${3:numberOfValues} )$0]]></content>
+  <description>MiddleValues</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>middleval</tabTrigger>
+</snippet>

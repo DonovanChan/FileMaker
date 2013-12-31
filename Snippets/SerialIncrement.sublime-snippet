@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[SerialIncrement ( ${1:text} ; ${2:incrementBy} )$0]]></content>
+  <description>SerialIncrement</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>serialinc</tabTrigger>
+</snippet>

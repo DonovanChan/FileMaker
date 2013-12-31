@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Tan ( ${1:angleInRadians} )$0]]></content>
+  <description>Tan</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>tan</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FieldRepetitions ( ${1:Get ( FileName )} ; ${2:layoutName} ; ${3:fieldName} )$0]]></content>
+  <description>FieldRepetitions</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fieldreps</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[DayOfWeek ( ${1:date} )$0]]></content>
+  <description>DayOfWeek</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>dow</tabTrigger>
+</snippet>

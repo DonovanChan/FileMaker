@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetRepetition ( ${1:repeatingField} ; ${2:number} )$0]]></content>
+  <description>GetRepetition</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getrep</tabTrigger>
+</snippet>

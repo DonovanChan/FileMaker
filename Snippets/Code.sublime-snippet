@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Code ( ${1:text} )$0]]></content>
+  <description>Code</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>code</tabTrigger>
+</snippet>

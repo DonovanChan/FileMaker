@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[IsEmpty ( ${1:field} )$0]]></content>
+  <description>IsEmpty</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>isempty</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Lookup ( ${1:sourceField}${2: ; ${3:failExpression}} )$0]]></content>
+  <description>Lookup</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>lookup</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextStyleRemove ( ${1:text} ; ${2:Plain | Bold | Italic | Underline | Condense | Extend | Strikethrough | SmallCaps | Superscript | Subscript | Uppercase | Lowercase | Titlecase | WordUnderline | DoubleUnderline | AllStyles} )$0]]></content>
+  <description>TextStyleRemove</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textstylerm</tabTrigger>
+</snippet>

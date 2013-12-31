@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Day ( ${1:date} )$0]]></content>
+  <description>Day</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>day</tabTrigger>
+</snippet>

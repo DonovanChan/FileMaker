@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Truncate ( ${1:number} ; ${2:precision} )$0]]></content>
+  <description>Truncate</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>trun</tabTrigger>
+</snippet>

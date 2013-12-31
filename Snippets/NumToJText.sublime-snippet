@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[NumToJText ( ${1:number} ; ${2:separator} ; ${3:characterType} )$0]]></content>
+  <description>NumToJText</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>numtojtext</tabTrigger>
+</snippet>

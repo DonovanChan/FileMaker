@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetSummary ( ${1:field} ; ${2:width} ; ${3:height} )$0]]></content>
+  <description>GetThumbnail</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getth</tabTrigger>
+</snippet>

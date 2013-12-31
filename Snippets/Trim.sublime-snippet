@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Trim ( ${1:text} )$0]]></content>
+  <description>Trim</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>trim</tabTrigger>
+</snippet>

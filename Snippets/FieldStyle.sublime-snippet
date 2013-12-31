@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FieldStyle ( ${1:Get ( FileName )} ; ${2:layoutName} ; ${3:fieldName} )$0]]></content>
+  <description>FieldStyle</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fieldstyle</tabTrigger>
+</snippet>

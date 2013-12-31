@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsTime ( ${1:text} )$0]]></content>
+  <description>GetAsTime</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getastime</tabTrigger>
+</snippet>

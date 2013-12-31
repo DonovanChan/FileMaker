@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[RightWords ( ${1:text} ; ${2:numberOfWords} )$0]]></content>
+  <description>RightWords</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>rightwords</tabTrigger>
+</snippet>

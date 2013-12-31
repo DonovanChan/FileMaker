@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[If ( ${1:test} ;
+	${2:result1} ;
+	${3:result2}
+)$0]]></content>
+  <description>If</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>if</tabTrigger>
+</snippet>

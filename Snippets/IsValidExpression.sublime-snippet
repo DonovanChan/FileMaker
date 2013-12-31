@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[IsValidExpression ( ${1:expression} )$0]]></content>
+  <description>IsValidExpression</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>isvalidexpression</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Sum ( ${1:field1}${2: ; field2...} )$0]]></content>
+  <description>Sum</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>sum</tabTrigger>
+</snippet>

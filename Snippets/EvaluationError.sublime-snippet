@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[EvaluationError ( ${1:expression} )$0]]></content>
+  <description>EvaluationError</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>evalerr</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextColor ( ${1:text} ; ${2:RGB ( ${3:red} ; ${4:green} ; ${5:blue} )} )$0]]></content>
+  <description>TextColor</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textcolor</tabTrigger>
+</snippet>

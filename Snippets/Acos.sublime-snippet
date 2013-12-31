@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Acos ( ${1:number} )$0]]></content>
+  <description>Acos</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>acos</tabTrigger>
+</snippet>

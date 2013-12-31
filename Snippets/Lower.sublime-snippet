@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Lower ( ${1:text} )$0]]></content>
+  <description>Lower</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>lower</tabTrigger>
+</snippet>

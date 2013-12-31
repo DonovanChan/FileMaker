@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Middle ( ${1:text} ; ${2:start} ; ${3:numberOfCharacters} )$0]]></content>
+  <description>Middle</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>middle</tabTrigger>
+</snippet>

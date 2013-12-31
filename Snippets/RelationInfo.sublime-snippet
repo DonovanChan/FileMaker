@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[RelationInfo ( ${1:Get ( FileName )} ; ${2:tableName} )$0]]></content>
+  <description>RelationInfo</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>relinfo</tabTrigger>
+</snippet>

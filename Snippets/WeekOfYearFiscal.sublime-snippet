@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[WeekOfYearFiscal ( ${1:date} ; ${2:startingDay} )$0]]></content>
+  <description>WeekOfYearFiscal</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>woyf</tabTrigger>
+</snippet>

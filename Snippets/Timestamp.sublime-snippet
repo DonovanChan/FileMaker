@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Timestamp ( ${1:date} ; ${2:time} )$0]]></content>
+  <description>Timestamp</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>ts</tabTrigger>
+</snippet>

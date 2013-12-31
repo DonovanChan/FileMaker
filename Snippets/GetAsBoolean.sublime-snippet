@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsBoolean ( ${1:data} )$0]]></content>
+  <description>GetAsBoolean</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getasbool</tabTrigger>
+</snippet>

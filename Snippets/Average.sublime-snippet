@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Average ( ${1:field}${2: ; ${3:field...}} )]]></content>
+  <description>Average</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>avg</tabTrigger>
+</snippet>

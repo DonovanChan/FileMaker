@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( TriggerGestureInfo )]]></content>
+    <tabTrigger>gettrig</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

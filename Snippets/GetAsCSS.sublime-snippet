@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsCSS ( ${1:text} )$0]]></content>
+  <description>GetAsCSS</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getascss</tabTrigger>
+</snippet>

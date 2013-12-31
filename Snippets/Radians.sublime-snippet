@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Radians ( ${1:angleInDegrees} )$0]]></content>
+  <description>Radians</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>rad</tabTrigger>
+</snippet>

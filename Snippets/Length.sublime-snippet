@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Length ( ${1:field} )$0]]></content>
+  <description>Length</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>len</tabTrigger>
+</snippet>

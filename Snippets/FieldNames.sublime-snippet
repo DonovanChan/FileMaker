@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FieldNames ( ${1:Get ( FileName )} ; ${2:layoutName} )$0]]></content>
+  <description>FieldNames</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fieldnames</tabTrigger>
+</snippet>

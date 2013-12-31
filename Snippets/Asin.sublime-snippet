@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Asin ( ${1:number} )$0]]></content>
+  <description>Asin</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>asin</tabTrigger>
+</snippet>

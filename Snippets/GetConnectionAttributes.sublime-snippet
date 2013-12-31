@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( ConnectionAttributes )]]></content>
+    <tabTrigger>getcon</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

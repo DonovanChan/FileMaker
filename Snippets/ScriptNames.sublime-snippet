@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ScriptNames ( ${1:Get ( FileName )} )$0]]></content>
+  <description>ScriptNames</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>scriptnames</tabTrigger>
+</snippet>

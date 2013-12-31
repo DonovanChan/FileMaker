@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsNumber ( ${1:text} )$0]]></content>
+  <description>GetAsNumber</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getasnum</tabTrigger>
+</snippet>

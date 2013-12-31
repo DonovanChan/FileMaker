@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ValueCount ( ${1:text} )$0]]></content>
+  <description>ValueCount</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>valcount</tabTrigger>
+</snippet>

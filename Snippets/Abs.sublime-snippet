@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Abs ( ${1:number} )$0]]></content>
+  <description>Abs</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>abs</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Last ( ${1:field} )$0]]></content>
+  <description>Last</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>last</tabTrigger>
+</snippet>

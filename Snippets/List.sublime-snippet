@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[List (
+		${1:field1} ;
+		${2:field2} ;
+)$0]]></content>
+  <description>List</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>list</tabTrigger>
+</snippet>

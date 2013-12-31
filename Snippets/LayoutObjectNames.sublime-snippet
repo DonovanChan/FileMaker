@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[LayoutObjectNames ( ${1:Get ( FileName )} ; ${2:layoutName} )$0]]></content>
+  <description>LayoutObjectNames</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>layoutobnames</tabTrigger>
+</snippet>

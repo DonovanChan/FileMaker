@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[LookupNext ( ${1:sourceField} ; ${2:lower | higher} )$0]]></content>
+  <description>LookupNext</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>lookupnext</tabTrigger>
+</snippet>

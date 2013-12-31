@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextSizeRemove ( ${1:text}${2 ; ${3:fontSize}} )$0]]></content>
+  <description>TextSizeRemove</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textsizerm</tabTrigger>
+</snippet>

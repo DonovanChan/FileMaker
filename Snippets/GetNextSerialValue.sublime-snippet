@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetNextSerialValue ( ${1:Get ( FileName )}; ${2:fieldName} )$0]]></content>
+  <description>GetNextSerialValue</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getnextserial</tabTrigger>
+</snippet>

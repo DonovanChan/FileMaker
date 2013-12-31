@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TableNames ( ${1:Get ( FileName )} )$0]]></content>
+  <description>TableNames</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>tablenames</tabTrigger>
+</snippet>

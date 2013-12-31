@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[PatternCount ( ${1:text} ; ${2:searchString} )$0]]></content>
+  <description>PatternCount</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>pcount</tabTrigger>
+</snippet>

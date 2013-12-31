@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Hiragana ( ${1:text} )$0]]></content>
+  <description>Hiragana</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>hiragana</tabTrigger>
+</snippet>

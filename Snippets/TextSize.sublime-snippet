@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextSize ( ${1:text} ; ${2:fontSize} )$0]]></content>
+  <description>TextSize</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textsize</tabTrigger>
+</snippet>

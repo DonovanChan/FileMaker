@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextFont ( ${1:text} ; ${2:"${3:fontName}"}${4: ; ${5:Roman | Greek | Cryllic | CentralEurope | ShiftJIS | TraditionalChinese | SimplifiedChinese | OEM | Symbol | Other}} )$0]]></content>
+  <description>TextFont</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textfont</tabTrigger>
+</snippet>

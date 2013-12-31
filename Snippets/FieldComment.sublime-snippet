@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FieldComment ( ${1:Get ( FileName )} ; ${2:fieldName} )$0]]></content>
+  <description>FieldComment</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fieldcomment</tabTrigger>
+</snippet>

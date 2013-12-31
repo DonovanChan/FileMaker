@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsURLEncoded ( ${1:text} )$0]]></content>
+  <description>GetAsURLEncoded</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getasurl</tabTrigger>
+</snippet>

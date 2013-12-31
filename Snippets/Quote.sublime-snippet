@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Quote ( ${1:text} )$0]]></content>
+  <description>Quote</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>quote</tabTrigger>
+</snippet>

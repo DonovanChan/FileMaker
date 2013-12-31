@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( ModifiedFields )]]></content>
+    <tabTrigger>getmod</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

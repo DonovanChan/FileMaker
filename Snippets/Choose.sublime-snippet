@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Choose ( ${1:test} ; ${2:result0} ; ${3:result1} )]]></content>
+  <description>Choose</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>choose</tabTrigger>
+</snippet>

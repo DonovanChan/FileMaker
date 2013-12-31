@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Base64Decode ( ${1:text}${2: ; ${3:fileNameWithExtension}} )]]></content>
+    <tabTrigger>base64d</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

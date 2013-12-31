@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[IsValid ( ${1:field} )$0]]></content>
+  <description>IsValid</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>isvalid</tabTrigger>
+</snippet>

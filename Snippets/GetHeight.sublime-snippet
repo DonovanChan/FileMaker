@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetHeight ( ${1:field} )$0]]></content>
+  <description>GetHeight</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getheight</tabTrigger>
+</snippet>

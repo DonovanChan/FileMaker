@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( Device )]]></content>
+    <tabTrigger>getdev</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

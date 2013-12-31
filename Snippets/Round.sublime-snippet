@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Round ( ${1:number} ; ${2:precision} )$0]]></content>
+  <description>Round</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>round</tabTrigger>
+</snippet>

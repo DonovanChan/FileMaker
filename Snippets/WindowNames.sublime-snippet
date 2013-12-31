@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[WindowNames${1:( ${2:Get ( FileName )} )}]]></content>
+  <description>WindowNames</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>winnames</tabTrigger>
+</snippet>

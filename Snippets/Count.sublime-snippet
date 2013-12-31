@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Count ( ${1:field1}${2: ; field2...} )$0]]></content>
+  <description>Count</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>count</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Month ( ${1:date} )$0]]></content>
+  <description>Month</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>month</tabTrigger>
+</snippet>

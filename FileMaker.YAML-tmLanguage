@@ -1,0 +1,75 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: FileMaker
+scopeName: source.filemaker
+fileTypes: [calc, fmfn]
+uuid: 52778097-0922-4f93-9545-e5a8f9fd1609
+firstLineMatch: \s*(Case|Let)\s*\(
+foldingStartMarker: /\*|\{\s*$|\(\[*\s*$
+foldingStopMarker: \*/|^\s*\}|^\s*\)|^\s*\]
+
+patterns:
+- name: comment.line.double-slash.filemaker
+  match: (//).*?($\n?)
+  captures:
+    '1': {name: punctuation.definition.comment.filemaker}
+
+- name: comment.block.filemaker
+  begin: /\*
+  end: \*/
+  captures:
+    '0': {name: punctuation.definition.comment.filemaker}
+
+- name: string.quoted.double.filemaker
+  begin: '"'
+  end: '"'
+  patterns:
+  - include: text.filemaker.hash
+  - include: '#nested_string'
+  - include: '#escaped_char'
+
+- name: support.function.builtin_functions.filemaker
+  match: \b(Average|Count|List|Max|Min|StDev|StDevP|Sum|Variance|VarianceP|Date|Day|DayName|DayNameJ|DayOfWeek|DayOfYear|Month|MonthName|MonthNameJ|WeekOfYear|WeekOfYearFiscal|Year|YearName|DatabaseNames|FieldBounds|FieldComment|FieldIDs|FieldNames|FieldRepetitions|FieldStyle|FieldType|GetNextSerialValue|LayoutIDs|LayoutNames|LayoutObjectNames|RelationInfo|ScriptIDs|ScriptNames|TableIDs|TableNames|ValueListIDs|ValueListItems|ValueListNames|WindowNames|External|FV|NPV|PMT|PV|Case|Choose|Evaluate|EvaluationError|GetAsBoolean|GetField|GetFieldName|GetLayoutObjectAttribute|GetNthRecord|If|IsEmpty|IsValid|IsValidExpression|Let|Lookup|LookupNext|Self|Abs|Ceiling|Combination|Div|Exp|Factorial|Floor|Int|Lg|Ln|Log|Mod|Random|Round|SetPrecision|Sign|Sqrt|Truncate|Extend|GetRepetition|Last|GetSummary|Char|Code|Exact|Filter|FilterValues|GetAsCSS|GetAsDate|GetAsNumber|GetAsSVG|GetAsText|GetAsTime|GetAsTimestamp|GetAsURLEncoded|GetValue|Hiragana|KanaHankaku|KanaZenkaku|KanjiNumeral|Katakana|Left|LeftValues|LeftWords|Length|Lower|Middle|MiddleValues|MiddleWords|NumToJText|PatternCount|Position|Proper|Quote|Replace|Right|RightValues|RightWords|RomanHankaku|RomanZenkaku|SerialIncrement|Substitute|Trim|TrimAll|Upper|ValueCount|WordCount|RGB|TextColor|TextColorRemove|TextFont|TextFontRemove|TextFormatRemove|TextSize|TextSizeRemove|TextStyleAdd|TextStyleRemove|Hour|Minute|Seconds|Time|Timestamp|Acos|Asin|Atan|Cos|Degrees|Pi|Radians|Sin|Tan|Get|GetHeight|GetThumbnail|GetWidth|VerifyContainer|ExecuteSQL|Location|LocationValues)\b
+
+- name: support.function.external_functions.filemaker
+  match: \b(FMSAUC_FindPlugin|FMSAUC_UpdatePlugIn|FMSAUC_Version)\b
+
+- name: constant.language.filemaker
+  match: (?i)\b(AccountName|ActiveFieldContents|ActiveFieldName|ActiveFieldTableName|ActiveLayoutObjectName|ActiveModifierKeys|ActiveRepetitionNumber|ActiveSelectionSize|ActiveSelectionStart|AllowAbortState|AllowToolbarState|ApplicationLanguage|ApplicationVersion|CalculationRepetitionNumber|CurrentDate|CurrentHostTimestamp|CurrentTime|CurrentTimestamp|CustomMenuSetName|DesktopPath|DocumentsPath|DocumentsPathListing|ErrorCaptureState|ExtendedPrivileges|FileMakerPath|FileName|FilePath|FileSize|FoundCount|HighContrastColor|HighContrastState|HostApplicationVersion|HostIPAddress|HostName|LastError|LastMessageChoice|LastODBCError|LayoutAccess|LayoutCount|LayoutName|LayoutNumber|LayoutTableName|LayoutViewState|MultiUserState|NetworkProtocol|PageNumber|PortalRowNumber|PreferencesPath|PrinterName|PrivilegeSetName|RecordAccess|RecordID|RecordModificationCount|RecordNumber|RecordOpenCount|RecordOpenState|RequestCount|RequestOmitState|ScreenDepth|ScreenHeight|ScreenWidth|ScriptName|ScriptParameter|ScriptResult|SortState|StatusAreaState|SystemDrive|SystemIPAddress|SystemLanguage|SystemNICAddress|SystemPlatform|SystemVersion|TemporaryPath|TextRulerVisible|TotalRecordCount|TriggerKeystroke|TriggerModifierKeys|UserCount|UserName|UseSystemFormatsState|WindowContentHeight|WindowContentWidth|WindowDesktopHeight|WindowDesktopWidth|WindowHeight|WindowLeft|WindowMode|WindowName|WindowTop|WindowVisible|WindowWidth|WindowZoomLevel|Roman|Greek|Cryllic|CentralEurope|ShiftJIS|TraditionalChinese|SimplifiedChinese|OEM|Symbol|Other|Plain|Bold|Italic|Underline|Condense|Extend|Strikethrough|SmallCaps|Superscript|Subscript|Uppercase|Lowercase|Titlecase|WordUnderline|DoubleUnderline|AllStyles|objectType|hasFocus|containsFocus|isFrontTabPanel|bounds|left|right|top|bottom|width|height|rotation|startPoint|endPoint|source|content|enclosingObject|containedObjects|ConnectionState|InstalledFMPlugins|PersistentID|UUID|WindowStyle)\b
+
+- name: variable.script_variable.local.filemaker
+  match: (\$)[a-zA-Z_][a-zA-Z0-9_]*?\b
+
+- name: variable.script_variable.global.filemaker
+  match: (\$\$)[a-zA-Z_][a-zA-Z0-9_]*?\b
+
+- name: constant.numeric.filemaker
+  match: \b-?[1-9]\d*(\.[0-9]+)?\b
+
+- name: constant.language.boolean.filemaker
+  match: \b(?:True|true|False|false)\b
+
+- name: keyword.operator.arithmetic.filemaker
+  match: (\-|\+|\*|/)
+
+- name: keyword.operator.logical.filemaker
+  match: \b(and|or|xor|not)\b
+
+- name: keyword.operator.comparison.filemaker
+  match: "(=|<=|\u2264|>=|\u2265|<>|\u2260|<|>)"
+
+- name: keyword.operator.string.filemaker
+  match: '&'
+
+- name: keyword.operator.assignment.filemaker
+  match: '='
+
+repository:
+  escaped_char:
+    name: constant.character.escape.filemaker
+    match: "\\\\(\xB6|\\\\|\")"
+
+  nested_string:
+    name: source.filemaker.embedded.source
+    begin: \"
+    end: \"

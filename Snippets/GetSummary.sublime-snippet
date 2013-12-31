@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetSummary ( ${1:summaryField} ; ${2:breakField} )$0]]></content>
+  <description>GetSummary</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getsum</tabTrigger>
+</snippet>

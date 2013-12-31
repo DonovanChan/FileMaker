@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( NetworkType )]]></content>
+    <tabTrigger>getnet</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

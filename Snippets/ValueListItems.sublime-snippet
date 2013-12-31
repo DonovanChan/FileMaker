@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ValueListItems ( ${1:Get ( FileName )} ; ${2:valueList} )$0]]></content>
+  <description>ValueListItems</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>vli</tabTrigger>
+</snippet>

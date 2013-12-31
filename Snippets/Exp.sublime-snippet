@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Exp ( ${1:number} )$0]]></content>
+  <description>Exp</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>exp</tabTrigger>
+</snippet>

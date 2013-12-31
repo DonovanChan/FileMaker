@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Position ( ${1:text} ; ${2:searchString} ; ${3:start} ; ${4:occurrence} )$0]]></content>
+  <description>Position</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>pos</tabTrigger>
+</snippet>

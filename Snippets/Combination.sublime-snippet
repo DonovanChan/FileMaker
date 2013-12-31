@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[Combination ( ${1:setSize} ; ${2:numberOfChoices} )$0]]></content>
+  <description>Combination</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>comb</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetNthRecord ( ${1:fieldName} ; ${2:recordNumber} )$0]]></content>
+  <description>GetNthRecord</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getnrec</tabTrigger>
+</snippet>

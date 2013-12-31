@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetAsText ( ${1:data} )$0]]></content>
+  <description>GetAsText</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getastext</tabTrigger>
+</snippet>

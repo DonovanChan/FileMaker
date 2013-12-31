@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[MiddleWords ( ${1:text} ; ${2:startingWord} ; ${3:numberOfWords} )$0]]></content>
+  <description>MiddleWords</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>middlewords</tabTrigger>
+</snippet>

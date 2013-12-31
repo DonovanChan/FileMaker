@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[PMT ( ${1:principal} ; ${2:interestRate} ; ${3:term} )$0]]></content>
+  <description>PMT</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>pmt</tabTrigger>
+</snippet>

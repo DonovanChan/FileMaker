@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( ScriptAnimationState )]]></content>
+    <tabTrigger>getscr</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

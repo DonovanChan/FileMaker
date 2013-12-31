@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[WeekOfYear ( ${1:date} )$0]]></content>
+  <description>WeekOfYear</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>woy</tabTrigger>
+</snippet>

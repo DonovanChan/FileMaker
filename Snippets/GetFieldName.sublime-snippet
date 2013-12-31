@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetFieldName ( ${1:fieldName} )$0]]></content>
+  <description>GetFieldName</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getfieldname</tabTrigger>
+</snippet>

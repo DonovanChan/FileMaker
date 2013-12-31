@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[FieldBounds ( ${1:Get ( FileName )} ; ${2:layoutName} ; ${3:fieldName} )$0]]></content>
+  <description>FieldBounds</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>fieldbounds</tabTrigger>
+</snippet>

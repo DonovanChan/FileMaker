@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[SetPrecision ( ${1:expression} ; ${2:precision} )$0]]></content>
+  <description>SetPrecision</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>setprec</tabTrigger>
+</snippet>

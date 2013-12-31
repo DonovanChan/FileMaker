@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[GetValue ( ${1:listOfValues} ; ${2:valueNumber} )$0]]></content>
+  <description>GetValue</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>getval</tabTrigger>
+</snippet>

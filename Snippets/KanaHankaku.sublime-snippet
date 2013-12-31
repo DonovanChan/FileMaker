@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[KanaHankaku ( ${1:text} )$0]]></content>
+  <description>KanaHankaku</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>kanahankaku</tabTrigger>
+</snippet>

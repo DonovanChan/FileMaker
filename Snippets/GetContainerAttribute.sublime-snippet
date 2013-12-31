@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[GetContainerAttribute ( ${1:sourceField} ; ${2:album|all|artist|audio|bitrate|composer|coverArt|coverArt|dpiHeight|dpiWidth|duration|externalFiles|externalFiles|externalSize|filename|fileSize|genre|height|image|internalSize|latitude|longitude|make|md5|model|orientation|photo|storageType|timestamp|title|track|transparency|transparency|width|year} )]]></content>
+    <tabTrigger>getcont</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[TextStyleAdd ( ${1:text} ; ${2:Plain | Bold | Italic | Underline | Condense | Extend | Strikethrough | SmallCaps | Superscript | Subscript | Uppercase | Lowercase | Titlecase | WordUnderline | DoubleUnderline | AllStyles} )$0]]></content>
+  <description>TextStyleAdd</description>
+  <scope>source.filemaker</scope>
+  <tabTrigger>textstyleadd</tabTrigger>
+</snippet>

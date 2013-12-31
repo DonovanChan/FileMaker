@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[Get ( EncryptionState )]]></content>
+    <tabTrigger>getenc</tabTrigger>
+    <scope>source.filemaker</scope>
+</snippet>
