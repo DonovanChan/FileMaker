@@ -1,8 +1,8 @@
 ================
-%(package_name)s
+FileMaker
 ================
 
-Package to aid development in FileMaker Pro, a relational database management system by the Apple subsidiary FileMaker, Inc.
+Sublime Text 3 package to aid development in FileMaker Pro, a relational database management system by the Apple subsidiary FileMaker, Inc.
 
 Features
 ========
@@ -31,6 +31,7 @@ Installing From Source
 - Quit Sublime Text
 - If you have a previous installation of Packages/FileMaker installed, delete it
 - Type the following into a terminalk::
+
 	cd '/path/to/Sublime Text 3/Packages'
 	git clone https://github.com/DonovanChan/FileMaker.sublime-package.git
 
