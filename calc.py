@@ -28,6 +28,13 @@ def quote(text):
     return '"' + text + '"'
 
 
+def quote_and_append(text):
+    textNew = ""
+    for line in text.splitlines():
+        textNew += quote(line) + ' & ¶ &' + "\n"
+    return textNew + "\n" + '""'
+
+
 class QuoteCommand(sublime_plugin.TextCommand):
     """ Quotes calculation as FileMaker string, escaping as necessary
     """
@@ -37,6 +44,20 @@ class QuoteCommand(sublime_plugin.TextCommand):
         selection = get_selection(view, select_all)
         for sel in selection:
             view.replace(edit, sel, quote(view.substr(sel)))
+
+        if select_all:
+            self.change_syntax()
+
+
+class QuoteAndAppendCommand(sublime_plugin.TextCommand):
+    """ Quotes each line in calculation as FileMaker string, appending each line of text with carriage return
+    """
+    def run(self, edit):
+        view = self.view
+        select_all = settings.get("use_entire_file_if_no_selection", True)
+        selection = get_selection(view, select_all)
+        for sel in selection:
+            view.replace(edit, sel, quote_and_append(view.substr(sel)))
 
         if select_all:
             self.change_syntax()

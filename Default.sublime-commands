@@ -2,5 +2,9 @@
     {
         "caption": "FileMaker: Quote As Text",
         "command": "quote"
+    },
+    {
+        "caption": "FileMaker: Quote And Append Lines",
+        "command": "quote_and_append"
     }
 ]
