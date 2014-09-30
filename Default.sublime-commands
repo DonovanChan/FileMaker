@@ -6,5 +6,9 @@
     {
         "caption": "FileMaker: Quote And Append Lines",
         "command": "quote_and_append"
+    },
+    {
+        "caption": "FileMaker: Extract Table Field Names",
+        "command": "extract_table_field_names"
     }
 ]

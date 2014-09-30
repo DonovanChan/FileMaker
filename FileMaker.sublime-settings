@@ -1,3 +1,5 @@
 {
-	"use_entire_file_if_no_selection": true
+    "use_entire_file_if_no_selection": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
 }

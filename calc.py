@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+import xml.etree.ElementTree as ET
 
 settings = sublime.load_settings("FileMaker.sublime-settings")
 
@@ -15,7 +16,7 @@ def get_selection(view, select_all=False):
 
 
 def change_syntax(self):
-    """Changes syntax to JSON if its in plain text
+    """Changes syntax to FileMaker if its in plain text
     """
     if "Plain text" in self.view.settings().get('syntax'):
         self.view.set_syntax_file("Packages/FileMaker/FileMaker.tmLanguage")
@@ -33,6 +34,13 @@ def quote_and_append(text):
     for line in text.splitlines():
         textNew += quote(line) + ' & ¶ &' + "\n"
     return textNew + "\n" + '""'
+
+def extract_table_field_names(text):
+    root = ET.fromstring(text)
+    textNew = ""
+    for elem in root.iterfind('Field'):
+      textNew += elem.get('name') + "\n"
+    return textNew
 
 
 class QuoteCommand(sublime_plugin.TextCommand):
@@ -61,3 +69,16 @@ class QuoteAndAppendCommand(sublime_plugin.TextCommand):
 
         if select_all:
             self.change_syntax()
+
+class ExtractTableFieldNamesCommand(sublime_plugin.TextCommand):
+    """ Extracts list of field names from FileMaker clipboard object
+    """
+    def run(self, edit):
+        view = self.view
+        select_all = settings.get("use_entire_file_if_no_selection", True)
+        selection = get_selection(view, select_all)
+        for sel in selection:
+            view.replace(edit, sel, extract_table_field_names(view.substr(sel)))
+
+        if select_all:
+            extract_table_field_names(view.substr(selection))
