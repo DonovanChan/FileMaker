@@ -1,14 +1,18 @@
 [
     {
         "caption": "FileMaker: Quote As Text",
-        "command": "quote"
+        "command": "filemaker_quote"
     },
     {
         "caption": "FileMaker: Quote And Append Lines",
-        "command": "quote_and_append"
+        "command": "filemaker_quote_and_append"
     },
     {
         "caption": "FileMaker: Extract Table Field Names",
-        "command": "extract_table_field_names"
+        "command": "filemaker_extract_table_field_names"
+    },
+    {
+        "caption": "FileMaker: Convert to Script Comments",
+        "command": "filemaker_convert_to_script_comments"
     }
 ]
