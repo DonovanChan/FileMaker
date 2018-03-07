@@ -28,9 +28,7 @@ Sorry, not gonna happen.
 Installing From Source
 ----------------------
 
-If you're storing the package as a directory as in this example, it `must`_ be stored in the *Packages* directory under the `data directory`_. Here's an example on macOS:
-
-Support for `Package Control`_ coming soon!
+If you're storing the package as a directory as in this example, it `must`_ be stored in the *Packages* directory under the `data directory`_. Note, this is *not* the directory Sublime Text opens when you select *Sublime Text > Preferences > Browse Packages...*! Here's an example on macOS:
 
 .. _must: http://docs.sublimetext.info/en/latest/extensibility/packages.html#package-locations-and-abbreviations
 .. _data directory: http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory
